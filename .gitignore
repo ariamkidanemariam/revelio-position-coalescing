@@ -1,0 +1,17 @@
+data/
+*.parquet
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+.env
+!examples/input/*.parquet
+
+*.tar
+*.zip
+*.pdf
+*.txt
+!requirements.txt
+*.log
